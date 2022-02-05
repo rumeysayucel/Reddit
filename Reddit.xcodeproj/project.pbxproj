@@ -11,6 +11,7 @@
 		057AF0A227AE893C00681E3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057AF0A127AE893C00681E3E /* ContentView.swift */; };
 		057AF0A427AE893F00681E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057AF0A327AE893F00681E3E /* Assets.xcassets */; };
 		057AF0A727AE893F00681E3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057AF0A627AE893F00681E3E /* Preview Assets.xcassets */; };
+		057AF0AE27AE898E00681E3E /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057AF0AD27AE898E00681E3E /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		057AF0A127AE893C00681E3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		057AF0A327AE893F00681E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		057AF0A627AE893F00681E3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		057AF0AD27AE898E00681E3E /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				057AF09F27AE893C00681E3E /* RedditApp.swift */,
 				057AF0A127AE893C00681E3E /* ContentView.swift */,
 				057AF0A327AE893F00681E3E /* Assets.xcassets */,
+				057AF0AF27AE899200681E3E /* Models */,
 				057AF0A527AE893F00681E3E /* Preview Content */,
 			);
 			path = Reddit;
@@ -65,6 +68,14 @@
 				057AF0A627AE893F00681E3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		057AF0AF27AE899200681E3E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				057AF0AD27AE898E00681E3E /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				057AF0A227AE893C00681E3E /* ContentView.swift in Sources */,
+				057AF0AE27AE898E00681E3E /* PostData.swift in Sources */,
 				057AF0A027AE893C00681E3E /* RedditApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
